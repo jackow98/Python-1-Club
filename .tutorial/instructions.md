@@ -74,17 +74,19 @@ Write a function that returns a list of prime numbers up to a given number.
 ```
 
 #### Question 11: 20%
-**Boolean Logic**
-Write a program that asks the user for two boolean values (True or False) and prints the result of the AND, OR, and NOT operations on them.
+**Bubble Sort**
+Given the array `[64, 34, 25, 12, 22, 11, 90]`, sort the array using the bubble sort algorithm.
 ```python
-# Implement boolean logic operations
+# Implement bubble sort on the array
+array = [64, 34, 25, 12, 22, 11, 90]
 ```
 
 #### Question 12: 15%
-**Sorting Algorithm**
-Implement a simple sorting algorithm (e.g., bubble sort) to sort an array of numbers.
+**Boolean Logic**
+Write a program that asks the user for two boolean values (True or False) and prints the result of the AND, OR, and NOT operations on them. Additionally, create a function that takes two boolean values as arguments and creates an array with the results of AND, OR, and NOT.
 ```python
-# Implement a bubble sort algorithm
+# Implement boolean logic operations
+# Create a function to return results in an array
 ```
 
 #### Question 13: 10%
@@ -102,5 +104,23 @@ Implement the binary search algorithm to find an element in a sorted array.
 ```
 
 #### Question 15: 1%
-**Random Number Generation and File Writing**
-Write a program that generates a list of 10 random integers between 1 and 100. Then, write these numbers to a file, each on a new line. Finally, read the numbers back from the file and print them to the console.
+**Problem Solving Challenge 1: Two Sum**
+Given an array of integers, return indices of the two numbers such that they add up to a specific target. You may assume that each input would have exactly one solution, and you may not use the same element twice.
+
+Example:
+```python
+# Example usage:
+print(two_sum([2, 7, 11, 15], 9))  # Output: [0, 1]
+```
+
+#### Final Challenge: 1%
+**Problem Solving Challenge 2: Find the Longest Substring Without Repeating Characters**
+Write a function that finds the length of the longest substring without repeating characters in a given string. Do not use dictionaries or the `enumerate` function.
+
+Example:
+```python
+# Example usage:
+print(length_of_longest_substring("abcabcbb"))  # Output: 3 ("abc")
+```
+
+Good luck, and let's see if you can make it to the 1%!
