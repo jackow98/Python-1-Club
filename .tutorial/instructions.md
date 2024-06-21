@@ -6,7 +6,7 @@ Welcome to the **Python 1% Club!** Inspired by the popular gameshow, this challe
 **Fix the Loop**
 There is an error in the following for loop. Fix it so that it prints numbers from 1 to 5.
 ```python
-for i in range(1, 6)
+for i in range(1, 5)
     print(i)
 ```
 
